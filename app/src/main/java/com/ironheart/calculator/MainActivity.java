@@ -96,6 +96,7 @@ public class MainActivity extends AppCompatActivity {
 //        if (matcher.find()) {
 //            return matcher.group(1).replaceAll("\\s+", "");
 //        }
+// vjknbsnjnvsnoisivnjvnjgnrjegnvio
         if (!spokenText.isEmpty()) {
             return spokenText.replaceAll(" ", "");
         }
