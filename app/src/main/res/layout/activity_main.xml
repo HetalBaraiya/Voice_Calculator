@@ -1,0 +1,39 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="@drawable/gradient_bg"
+    tools:context=".MainActivity"
+    android:theme="@style/Theme.VoiceCalculator">
+
+    <!-- Result TextView -->
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Press the mic and speak your calculation"
+        android:textSize="20sp"
+        android:textColor="@color/text_primary"
+        android:layout_marginBottom="24dp"
+        android:padding="8dp"
+        android:background="@drawable/rounded_background"
+        android:elevation="4dp" />
+
+    <!-- Speak Button -->
+    <Button
+        android:id="@+id/buttonSpeak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🎤 Speak"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:backgroundTint="@color/button_color"
+        android:textColor="@color/white"
+        android:background="@drawable/button_bg"
+        android:elevation="6dp" />
+
+</LinearLayout>

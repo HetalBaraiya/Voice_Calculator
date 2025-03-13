@@ -1,0 +1,18 @@
+<resources>
+    <!-- Primary Colors -->
+    <color name="purple_500">#6200EE</color>        <!-- Fix for purple_500 -->
+    <color name="purple_700">#3700B3</color>        <!-- Fix for purple_700 -->
+    <color name="teal_200">#03DAC5</color>          <!-- Fix for teal_200 -->
+
+    <!-- Additional Colors -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Custom Colors for Better UI -->
+    <color name="pink_start">#FF6E7F</color>
+    <color name="blue_end">#BFE9FF</color>
+    <color name="button_color">#FF4081</color>      <!-- Vibrant pink for button -->
+    <color name="button_text">#FFFFFF</color>       <!-- White text for button -->
+    <color name="bg_color">#F5F5F5</color>         <!-- Light grey background -->
+    <color name="text_primary">#333333</color>      <!-- Dark text -->
+</resources>
